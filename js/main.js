@@ -1,24 +1,59 @@
 let listItems = [
     {
         title: "Very first anime you watched",
-        link: "https://anilist.co/activity/472252544",
-        image: "images/challenge/1.jpg"
+        link: "https://anilist.co/activity/464575970",
+        image: "images/challenge/1.1.jpg"
     },
     {
         title: "Favorite anime you've watched so far",
-        link: "https://anilist.co/activity/472554642",
-        image: "images/challenge/2.jpg"
+        link: "https://anilist.co/activity/464958093",
+        image: "images/challenge/2.1.2019.jpg"
     },
     {
         title: "Favorite male anime character ever",
-        link: "https://anilist.co/activity/472952368",
-        image: "images/challenge/3.png"
+        link: "https://anilist.co/activity/465340663",
+        image: "images/challenge/3.1.png"
     },
     {
         title: "Favorite female anime character ever",
-        link: "https://anilist.co/activity/473416431",
+        link: "https://anilist.co/activity/465784021",
         image: "images/challenge/4.png"
-    }
+    },
+    {
+        title: "Anime I'm ashamed I enjoyed",
+        link: "https://anilist.co/activity/466207484",
+        image: "images/challenge/5.png"
+    },
+    {
+        title: "Anime I want to see but haven't yet",
+        link: "https://anilist.co/activity/466630832",
+        image: "images/challenge/6.1.png"
+    },
+    {
+        title: "My anime crush",
+        link: "https://anilist.co/activity/467134426",
+        image: "images/challenge/7.png"
+    },
+    {
+        title: "Favorite anime couple",
+        link: "https://anilist.co/activity/467618427",
+        image: "images/challenge/8.2.png"
+    },
+    {
+        title: "Best Anime Villian",
+        link: "https://anilist.co/activity/467921021",
+        image: "images/challenge/9.png" //day 9
+    },
+    {
+        title: "Favorite Fighter Anime",
+        link: "https://anilist.co/activity/468522251",
+        image: "images/challenge/10.png"
+    },
+    {
+        title: "Favorite mecha anime",
+        link: "https://anilist.co/activity/468995371",
+        image: "images/challenge/11.png" //day 11
+    },
 ]
 
 const itemsContainer = document.getElementById("challenge-items");
