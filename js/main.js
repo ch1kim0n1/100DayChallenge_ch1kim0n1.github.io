@@ -53,7 +53,7 @@ let listItems = [
         title: "Favorite mecha anime",
         link: "https://anilist.co/activity/468995371",
         image: "images/challenge/11.png" //day 11
-    },
+    }
 ]
 
 const itemsContainer = document.getElementById("challenge-items");
