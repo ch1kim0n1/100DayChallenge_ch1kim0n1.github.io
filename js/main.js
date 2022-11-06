@@ -12,7 +12,7 @@ let listItems = [
     {
         title: "Favorite male anime character ever",
         link: "https://anilist.co/activity/465340663",
-        image: "images/challenge/3.1.png"
+        image: "images/challenge/3.1.jpg"
     },
     {
         title: "Favorite female anime character ever",
@@ -22,17 +22,17 @@ let listItems = [
     {
         title: "Anime I'm ashamed I enjoyed",
         link: "https://anilist.co/activity/466207484",
-        image: "images/challenge/5.png"
+        image: "images/challenge/5.jpg"
     },
     {
         title: "Anime I want to see but haven't yet",
         link: "https://anilist.co/activity/466630832",
-        image: "images/challenge/6.1.png"
+        image: "images/challenge/6.1.jpg"
     },
     {
         title: "My anime crush",
         link: "https://anilist.co/activity/467134426",
-        image: "images/challenge/7.png"
+        image: "images/challenge/7.jpg"
     },
     {
         title: "Favorite anime couple",
@@ -47,12 +47,12 @@ let listItems = [
     {
         title: "Favorite Fighter Anime",
         link: "https://anilist.co/activity/468522251",
-        image: "images/challenge/10.png"
+        image: "images/challenge/10.jpg"
     },
     {
         title: "Favorite mecha anime",
         link: "https://anilist.co/activity/468995371",
-        image: "images/challenge/11.png" //day 11
+        image: "images/challenge/11.jpg" //day 11
     }
 ]
 
