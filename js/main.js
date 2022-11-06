@@ -2,7 +2,7 @@ let listItems = [
     {
         title: "Very first anime you watched",
         link: "https://anilist.co/activity/464575970",
-        image: "images/1.1.jpg"
+        image: "images/1.1.png"
     },
     {
         title: "Favorite anime you've watched so far",
@@ -12,7 +12,7 @@ let listItems = [
     {
         title: "Favorite male anime character ever",
         link: "https://anilist.co/activity/465340663",
-        image: "images/3.1.jpg"
+        image: "images/3.1.png"
     },
     {
         title: "Favorite female anime character ever",
@@ -32,7 +32,7 @@ let listItems = [
     {
         title: "My anime crush",
         link: "https://anilist.co/activity/467134426",
-        image: "images/7.jpg"
+        image: "images/7.gif"
     },
     {
         title: "Favorite anime couple",
@@ -53,7 +53,17 @@ let listItems = [
         title: "Favorite mecha anime",
         link: "https://anilist.co/activity/468995371",
         image: "images/11.jpg" //day 11
-    }
+    },
+    {
+        title: "Saddest Anime Scene",
+        link: "https://anilist.co/activity/469345707",
+        image: "images/12.14.jpg" //day 12
+    },
+    {
+        title: "Anime Character I am Most Similar to",
+        link: "https://anilist.co/activity/470078702",
+        image: "images/13.jpg" //day 13
+    },
 ]
 
 const itemsContainer = document.getElementById("challenge-items");
