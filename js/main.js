@@ -64,6 +64,21 @@ let listItems = [
         link: "https://anilist.co/activity/470078702",
         image: "images/13.jpg" //day 13
     },
+    {
+        title: "Saddest Anime Death", //day 14
+        link: "https://anilist.co/activity/470503529",
+        image: "images/13.jpg" //NEED TO CHANGE
+    },
+    {
+        title: "Favorite Anime Sidekick, pet, or Summoning", //day 15
+        link: "https://anilist.co/activity/471125545",
+        image: "images/13.jpg" //NEED TO CHANGE
+    },
+    {
+        title: "Anime With the Best Animation", //day 16
+        link: "https://anilist.co/activity/471886554",
+        image: "images/13.jpg" //NEED TO CHANGE
+    },
 ]
 
 const itemsContainer = document.getElementById("challenge-items");
