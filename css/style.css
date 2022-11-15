@@ -30,6 +30,7 @@ header
     background-color: var(--foreground-color);
     width: 100%;
     border-bottom: 3px solid rgb(31, 41, 55);
+    z-index: 999;
 }
 .container{
     max-width: 1200px;
@@ -86,6 +87,19 @@ h1{
 }
 
 #challenge-items{
+    margin-top: 40px;
+}
+#challenge-items .item,
+#challenge-items .hr-block{
+    display: flex;
+}
+#challenge-items .hr-block{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.181);
+
+    margin-bottom: 40px;
     margin-top: 40px;
 }
 #challenge-items .item{
@@ -178,7 +192,6 @@ footer{
 a{
     color: rgb(61,180,242);
 }
-
 #challenge-items .hr-block div{
     position: absolute;
     display: block;
@@ -199,6 +212,7 @@ a{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 @media only screen and (max-width: 590px) {
     h1{
