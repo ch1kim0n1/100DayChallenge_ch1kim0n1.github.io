@@ -84,6 +84,10 @@ let listItems = [
 const itemsContainer = document.getElementById("challenge-items");
 
 for(let i = 0; i < listItems.length; i++){
+    if((i % 10) == 0 && i != 0){
+        itemsContainer.innerHTML += `<div class="hr-block"><div>${i}+</div></div>`;
+    }
+
     itemsContainer.innerHTML += `
                 <a href="${listItems[i].link}" class="item">
                     <div class="item-img">
