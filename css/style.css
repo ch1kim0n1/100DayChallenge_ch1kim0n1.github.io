@@ -179,6 +179,26 @@ a{
     color: rgb(61,180,242);
 }
 
+#challenge-items .hr-block div{
+    position: absolute;
+    display: block;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.238);
+    border: 1px solid rgba(255, 255, 255, 0.181);
+    border-radius: 3px;
+    background-color: var(--block-color);
+    font-weight: 600;
+
+    padding: 5px 30px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @media only screen and (max-width: 590px) {
     h1{
