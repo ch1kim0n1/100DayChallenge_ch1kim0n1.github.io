@@ -67,17 +67,17 @@ let listItems = [
     {
         title: "Saddest Anime Death", //day 14
         link: "https://anilist.co/activity/470503529",
-        image: "images/13.jpg" //NEED TO CHANGE
+        image: "images/12.14.jpg"
     },
     {
         title: "Favorite Anime Sidekick, pet, or Summoning", //day 15
         link: "https://anilist.co/activity/471125545",
-        image: "images/13.jpg" //NEED TO CHANGE
+        image: "images/15.jpg"
     },
     {
         title: "Anime With the Best Animation", //day 16
         link: "https://anilist.co/activity/471886554",
-        image: "images/13.jpg" //NEED TO CHANGE
+        image: "images/16.jpg" 
     },
 ]
 
