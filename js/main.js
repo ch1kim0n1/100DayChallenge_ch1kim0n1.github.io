@@ -1,41 +1,41 @@
 let listItems = [
     {
-        title: "Very first anime you watched",
+        title: "Very First Anime You Watched",
         link: "https://anilist.co/activity/464575970",
-        image: "images/1.1.png" //day 1
+        image: "images/1.jpg" //day 1
     },
     {
-        title: "Favorite anime you've watched so far",
+        title: "Favorite Anime You've Watched So Far",
         link: "https://anilist.co/activity/464958093",
         image: "images/2.1.2019.jpg" //day 2
     },
     {
-        title: "Favorite male anime character ever",
+        title: "Favorite Male Anime Character Ever",
         link: "https://anilist.co/activity/465340663",
         image: "images/3.1.png" //day 3
     },
     {
-        title: "Favorite female anime character ever",
+        title: "Favorite Female Anime Character Ever",
         link: "https://anilist.co/activity/465784021",
         image: "images/4.png" //day 4
     },
     {
-        title: "Anime I'm ashamed I enjoyed",
+        title: "Anime I'm Ashamed I Enjoyed",
         link: "https://anilist.co/activity/466207484",
         image: "images/5.jpg" //day 5
     },
     {
-        title: "Anime I want to see but haven't yet",
+        title: "Anime I Want to See But Haven't Yet",
         link: "https://anilist.co/activity/466630832",
         image: "images/6.1.jpg" //day 6
     },
     {
-        title: "My anime crush",
+        title: "My Anime Crush",
         link: "https://anilist.co/activity/467134426",
         image: "images/7.gif" //day 7
     },
     {
-        title: "Favorite anime couple",
+        title: "Favorite Anime Couple",
         link: "https://anilist.co/activity/467618427",
         image: "images/8.2.png" //day 8
     },
@@ -47,10 +47,10 @@ let listItems = [
     {
         title: "Favorite Fighter Anime",
         link: "https://anilist.co/activity/468522251",
-        image: "images/10.jpg" //day 10
+        image: "images/10.23.jpg" //day 10
     },
     {
-        title: "Favorite mecha anime",
+        title: "Favorite Mecha Anime",
         link: "https://anilist.co/activity/468995371",
         image: "images/11.jpg" //day 11
     },
@@ -70,7 +70,7 @@ let listItems = [
         image: "images/12.14.jpg"
     },
     {
-        title: "Favorite Anime Sidekick, pet, or Summoning", //day 15
+        title: "Favorite Anime Sidekick, Pet, or Summoning", //day 15
         link: "https://anilist.co/activity/471125545",
         image: "images/15.jpg"
     },
@@ -79,12 +79,33 @@ let listItems = [
         link: "https://anilist.co/activity/471886554",
         image: "images/16.jpg" 
     },
+    {
+        title: "Favorite Supporting Male Anime Character", //day 17
+        link: "https://anilist.co/activity/472019025",
+        image: "images/17.jpg" 
+    },
+    {
+        title: "Favorite Supporting Female Anime Character", //day 18
+        link: "https://anilist.co/activity/472657392",
+        image: "images/18.jpg" 
+    },
+    {
+        title: "Most Epic Scene Ever", //day 19
+        link: "https://anilist.co/activity/472810845",
+        image: "images/19.jpg" 
+    },
+    {
+        title: "Anime Character That Gets on My Nerves", //day 20
+        link: "https://anilist.co/activity/473309324",
+        image: "images/20.jpg" 
+    }
+
 ]
 
 const itemsContainer = document.getElementById("challenge-items");
 
 for(let i = 0; i < listItems.length; i++){
-    if((i % 10) == 0 && i != 0){
+    if((i % 10) == 0){
         itemsContainer.innerHTML += `<div class="hr-block"><div>${i}+</div></div>`;
     }
 
@@ -96,7 +117,7 @@ for(let i = 0; i < listItems.length; i++){
                     <div class="info">
                         <h3>${listItems[i].title}</h3>
                     </div>
-                    <span>${i + 1} Day</span> //check the code and redo it
+                    <span>${i + 1} Day</span> 
                 </a>
     `;
 }

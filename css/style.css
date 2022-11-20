@@ -11,7 +11,7 @@
 }
 body{
     position: relative;
-    background-color: rgb(11,22,34);
+    background-color: rgb(16, 26, 37);
 }
 body::-webkit-scrollbar {
     width: 10px;
@@ -32,6 +32,34 @@ header
     border-bottom: 3px solid rgb(31, 41, 55);
     z-index: 999;
 }
+.center {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 22px;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #d35acf;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -57,33 +85,46 @@ header
     color: #fff;
     padding: 3px 5px;
     background-color: rgba(255, 255, 255, 0.111);
-    border-radius: 3px;
+    border-radius: 7px;
 
-    font-size: 13px;
-    transition: 0.3s ease;
+    font-size: 15px;
+    transition: 0.4s ease;
+
+    position: relative;
+    left: 355px;
 }
 .nickname a:hover{
-    color: #000;
-    background-color: #fff;
+    color: rgb(246, 66, 66);
+    background-color: rgb(255, 255, 255);
 }
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 .content{
     margin-top: 62px;
-    margin-bottom: 100px;
+    margin-bottom: 00px;
 }
 .challenge-image{
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 30px;
+    max-width: 100%;
     text-align: center;
 }
 h1{
     font-family: 'Secular One', sans-serif;
-    margin-top: 45px;
+    margin-top: 150px;
     color: #f5f5f5;
     font-size: 40px;
+    text-align: center;
 }
 .challenge-image img
 {
-    width: 400px;
+    width: 500px;
 }
 
 #challenge-items{
@@ -107,20 +148,20 @@ h1{
     display: flex;
     align-items: center;
 
-    background-color: var(--block-color);
+    background-color: rgb(15, 15, 15);
     margin-bottom: 20px;
 
     overflow: hidden;
     border-radius: 4px;
     cursor: pointer;
-    color: #a0b1c5;
-    transition: 0.15s ease;
+    color: #ffffff;
+    transition: 0.3s ease;
     text-decoration: none;
 }
 
 #challenge-items .item-img{
-    height: 110px;
-    width: 70px;
+    height: 120px;
+    width: 90px;
     flex-shrink: 0;
 }
 #challenge-items img{
@@ -129,8 +170,8 @@ h1{
     object-fit: cover;
 }
 #challenge-items .info{
-    margin-left: 30px;
-    font-size: 23px;
+    margin-left: 50px;
+    font-size: 27px;
 }
 #challenge-items span{
     position: absolute;
@@ -146,16 +187,16 @@ h1{
 }
 #challenge-items .item:hover{
     background-color: #c4d8ef;
-    color: #152232;
+    color: #000000;
 }
 #challenge-items .item:hover{
-    background-color: #c4d8ef;
+    background-color: #b9b9b9;
 }
 #challenge-items .item:hover span{
-    color: rgba(0, 0, 0, 0.422);
+    color: rgba(255, 0, 0, 0.422);
 }
 #challenge-items .item:hover img{
-    opacity: 0.8;
+    opacity: 1;
 }
 .information .text{
     background-color: var(--block-color);
@@ -165,6 +206,12 @@ h1{
     border-radius: 5px;
     padding: 20px 15px;
 }
+.special img{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1px;
+    width: 150px;
+  }
 .information .date{
     display: flex;
     align-items: center;
