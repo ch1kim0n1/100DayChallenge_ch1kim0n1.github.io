@@ -59,6 +59,21 @@ let listItems = [
         link: "https://anilist.co/activity/479012598",
         image: "images/32.jpg" 
     },
+    {
+        title: "Anime Character I Would Like to Cosplay", //day 33
+        link: "https://anilist.co/activity/480201598",
+        image: "images/10.23.jpg" 
+    },
+    {
+        title: "What Anime Character Would be my Workout Buddy", //day 34
+        link: "https://anilist.co/activity/480203871",
+        image: "images/34.jpg" 
+    },
+    {
+        title: "What Crossover I Would Like to See", //day 35
+        link: "https://anilist.co/activity/480205220",
+        image: "images/27.30.jpg" 
+    },
 
 ]
 
