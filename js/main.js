@@ -7,7 +7,7 @@ let listItems = [
     {
         title: "Favorite Anime You've Watched So Far",
         link: "https://anilist.co/activity/464958093",
-        image: "images/2.1.2019.jpg" //day 2
+        image: "images/2.2.jpg" //day 2
     },
     {
         title: "Favorite Male Anime Character Ever",
@@ -27,7 +27,7 @@ let listItems = [
     {
         title: "Anime I Want to See But Haven't Yet",
         link: "https://anilist.co/activity/466630832",
-        image: "images/6.1.jpg" //day 6
+        image: "images/6.2.jpg" //day 6
     },
     {
         title: "My Anime Crush",

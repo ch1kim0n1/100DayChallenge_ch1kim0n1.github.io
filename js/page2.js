@@ -72,7 +72,7 @@ let listItems = [
     {
         title: "What Crossover I Would Like to See", //day 35
         link: "https://anilist.co/activity/480205220",
-        image: "images/27.30.jpg" 
+        image: "images/22.jpg" 
     },
 
 ]
