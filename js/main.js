@@ -17,7 +17,7 @@ let listItems = [
     {
         title: "Favorite Female Anime Character Ever",
         link: "https://anilist.co/activity/465784021",
-        image: "images/4.png" //day 4
+        image: "images/4.jpg" //day 4
     },
     {
         title: "Anime I'm Ashamed I Enjoyed",
@@ -87,7 +87,7 @@ let listItems = [
     {
         title: "Favorite Supporting Female Anime Character", //day 18
         link: "https://anilist.co/activity/472657392",
-        image: "images/18.jpg" 
+        image: "images/18.png" 
     },
     {
         title: "Most Epic Scene Ever", //day 19
@@ -97,7 +97,7 @@ let listItems = [
     {
         title: "Anime Character That Gets on My Nerves", //day 20
         link: "https://anilist.co/activity/473309324",
-        image: "images/20.jpg" 
+        image: "images/26.jpg" 
     }
 
 ]

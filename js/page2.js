@@ -55,7 +55,7 @@ let listItems = [
         image: "images/31.jpg" 
     },
     {
-        title: "Which Anime Character would I want to be as best friend", //day 32
+        title: "Which Anime Character would I want to be as Best Friend", //day 32
         link: "https://anilist.co/activity/479012598",
         image: "images/32.jpg" 
     },
@@ -65,7 +65,7 @@ let listItems = [
         image: "images/10.23.jpg" 
     },
     {
-        title: "What Anime Character Would be my Workout Buddy", //day 34
+        title: "What Anime Character Would be My Workout Buddy", //day 34
         link: "https://anilist.co/activity/480203871",
         image: "images/34.jpg" 
     },
@@ -73,6 +73,21 @@ let listItems = [
         title: "What Crossover I Would Like to See", //day 35
         link: "https://anilist.co/activity/480205220",
         image: "images/22.jpg" 
+    },
+    {
+        title: "My First Anime Crush", //day 36
+        link: "https://anilist.co/activity/481499685",
+        image: "images/36.png" 
+    },
+    {
+        title: "Anime That Changed Me", //day 37
+        link: "https://anilist.co/activity/481500301",
+        image: "images/37.jpg" 
+    },
+    {
+        title: "Do I like Yaoi/Yuri", //day 38
+        link: "https://anilist.co/activity/481501530",
+        image: "images/38.png" 
     },
 
 ]
