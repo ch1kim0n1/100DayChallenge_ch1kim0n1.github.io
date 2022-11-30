@@ -1,5 +1,5 @@
 // ПОДКЛЮЧЕНИЕ СПИСОКОВ ЧЕРЕЗ DATA.JS В INDEX.HTML
-
+let listItems = ch1kim0n1.listItems;
 
 const itemsContainer = document.getElementById("challenge-items");
 let items = [];
