@@ -169,6 +169,118 @@ h1{
     width: 90px;
     flex-shrink: 0;
 }
+#other-users{
+    margin-top: 20px;
+}
+.user{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--block-color);
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 16px;
+
+    border-radius: 3px;
+    
+
+    transition: 0.15s ease;
+}
+.user-img{
+    width: 32px;
+    height: 32px;
+
+    border-radius: 3px;
+    overflow: hidden;
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.user-nickname{
+    padding: 0 10px;
+    white-space: nowrap;
+}
+.user:hover{
+    background-color: var(--block-color-hover);
+}
+.user::after{
+    content: 'test';
+    position: absolute;
+
+    font-size: 10px;
+    color: #fff;
+
+    right: 0px;
+    top: -6px;
+
+    padding: 1px 3px;
+    border-radius: 2px;
+    background-color: #adadad;
+}
+.user.complete::after{
+    content: 'Completed';
+    background-color: rgb(7, 148, 0);
+}
+.user.current::after{
+    content: 'Current';
+    background-color: rgb(0, 35, 148);
+}
+.user.failed::after{
+    content: 'Failed';
+    background-color: rgb(148, 0, 0);
+}
+#stats-number__graph{
+    margin-top: 20px;
+}
+#stats-number__graph
+{
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#stats-number__graph span{
+    display: inline-block;
+    height: 100%;
+}
+
+#stats-number__text span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+}
+#stats-number__text .item-stat{
+    position: relative;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    margin-left: 14px;
+    width: fit-content;
+
+    cursor: pointer;
+}
+#stats-number__text .item-stat::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(54, 54, 54);
+    bottom: -4px;
+    left: 0;
+    transition: 0.15s ease;
+}
+#stats-number__text .item-stat:hover::after{
+    height: 4px;
+    background-color: rgb(61,180,242);
+}
 #challenge-items img{
     width: 100%;
     height: 100%;

@@ -1,4 +1,95 @@
-let ch1kim0n1 = {
+function getDatach1kim0n1() {
+    const Status = {
+        Complete: "complete",
+        Current: "current",
+        Failed: "failed"
+    }
+
+    // Создание объекта тайтла
+    /////////////////////////////////////////////////////////
+    class Title {
+        id;
+        title;
+        count;
+        isShowing;
+
+        constructor(id, title) {
+            this.id = id;
+            this.title = title;
+            this.count = 0;
+            this.isShowing = false;
+        }
+    }
+
+    let ch1kim0n1 = {
+        otherUsers: [
+            {
+                nickname: "GHAUR1",
+                image: "images/users/Ghaur1.png",
+                url: "https://anilist.co/activity/474754966",
+                status: Status.Complete
+            },
+            {
+                nickname: "OskarL",
+                image: "images/users/OskarL.jpg",
+                url: "https://anilist.co/activity/478516794",
+                status: Status.Complete
+            },
+            {
+                nickname: "Karandi",
+                image: "images/users/Karandi.webp",
+                url: "https://100wordanime.blog/category/30-day-anime-challenge/",
+                status: Status.Complete
+            },
+            {
+                nickname: "SteveDekart",
+                image: "images/users/ST.jpg",
+                url: "https://ch1kim0n1.github.io/100DayChallenge_ch1kim0n1.github.io/",
+                status: Status.Current
+            },
+            {
+                nickname: "GreenDavid004",
+                image: "images/users/david.jpg",
+                url: "https://anilist.co/user/GreenDavid004/",
+                status: Status.Current
+            },
+            {
+                nickname: "Ani-Dotes",
+                image: "images/users/dotes.jpg",
+                url: "https://anidotesblog.wordpress.com/100-day-anime-challenge/",
+                status: Status.Failed
+            },
+            {
+                nickname: "Celestial Sparkles",
+                image: "images/users/CelestialSparkles.png",
+                url: "https://howanimestuffworks176744600.wordpress.com/category/anime-challenges-events/100-days-of-anime-challenge/",
+                status: Status.Failed
+            }
+        ],
+
+        listTitles: [
+            new Title(0, "One Punch Man"),
+            new Title(1, "Demon Slayer"),
+            new Title(2, "Ranking of Kings"),
+            new Title(3, "Sword Art Online"),
+            new Title(4, "86 - Eighty-six"),
+            new Title(5, "No Game, No Life"),
+            new Title(6, "Death Note"),
+            new Title(7, "Konosuba"),
+            new Title(8, "Spy x Family"),
+            new Title(9, "Pokemon"),
+            new Title(10, "Tower of God"),
+            new Title(11, "Assossination Classroom"),
+            new Title(12, "ERASED"),
+            new Title(13, "Re:ZERO -Starting Life in Another World-"),
+            new Title(14, "POP TEAM EPIC"),
+            new Title(15, "That Time I Got Reincarnated as a Slime"),
+            new Title(16, "Himouto! Umaru-chan"),
+            new Title(17, "Ya Boy Kongming!"),
+            new Title(18, "One Piece"),
+        ],
+
+
     listItems: [
         {
             title: "Very First Anime You Watched",
@@ -190,7 +281,39 @@ let ch1kim0n1 = {
             link: "https://anilist.co/activity/481501530",
             image: "images/38.png" 
         },
+        {
+            title: "Favorite Music in an anime", //day 39
+            link: "https://anilist.co/activity/483948838",
+            image: "images/31.jpg" 
+        },
+        {
+            title: "Favorite VA/seiyuu", //day 40
+            link: "https://anilist.co/activity/483950083",
+            image: "images/40.png" 
+        },
+        {
+            title: "Anime Character I Hate", //day 41
+            link: "https://anilist.co/activity/483950740",
+            image: "images/41.png" 
+        },
+        {
+            title: "Most Shocking Anime Scene", //day 42
+            link: "https://anilist.co/activity/483953137",
+            image: "images/13.jpg" 
+        },
+        {
+            title: "Favorite Cannon Couple", //day 43
+            link: "https://anilist.co/activity/483954050",
+            image: "images/15.jpg" 
+        },
+        {
+            title: "Who do I ship", //day 44
+            link: "https://anilist.co/activity/483954564",
+            image: "images/44.gif" 
+        },
     
     ]
-    
+}
+
+return ch1kim0n1;
 }
