@@ -94,18 +94,17 @@ searchInput.addEventListener("input", function(e){
 });
 
 
-// Кнопки-сортировки по дням
-let daysSelectBtns = document.querySelectorAll("#select-days .select");
-daysSelectBtns.forEach(btn => {
-    btn.addEventListener("click", function(e){
+let daysSelectBtns = document.querySelectorAll("#select-days a");
+daysSelectBtns.forEach(button => {
+    button.addEventListener("click", function(e){
+        e.preventDefault();
         let elem = e.currentTarget;
 
         // Если кнопка выбрана, то она активна и выделяется визуальна
         daysSelectBtns.forEach(btn => {
-            btn.classList.remove("selected");
+            btn.classList.remove("active");
         });
-        elem.classList.add("selected");
-
+        elem.classList.add("active");
 
         // Получение от минимального числа дня до максимального
         let min = +elem.getAttribute("min-day");
@@ -127,12 +126,13 @@ daysSelectBtns.forEach(btn => {
                 isActiveHrBlocks(true);
             else
                 isActiveHrBlocks(false);
+
+            if(founded == 0)
+                isActiveNothing(true);
+            else
+                isActiveNothing(false);
         });
-        if(founded == 0)
-            isActiveNothing(true);
-        else
-            isActiveNothing(false);
-    });
+    })
 });
 
 // Статистика по тайтлам
