@@ -54,45 +54,6 @@ for(let i = 0; i < listItems.length; i++){
     itemsContainer.append(item);
 }
 
-// Поиск в реальном времени
-let searchInput = document.getElementById("search-input");
-searchInput.addEventListener("input", function(e){
-
-    // Отключить кнопки-сортировки
-    daysSelectBtns.forEach(btn => {
-        btn.classList.remove("selected");
-    });
-    daysSelectBtns[0].classList.add("selected");
-
-    // Поиск
-    let value = e.currentTarget.value.toLowerCase();
-    if(value == "")
-    {
-        items.forEach(element => {
-            element.elem.classList.remove("hide");
-        });
-        isActiveHrBlocks(true);
-        isActiveNothing(false);
-        return;
-    }
-    isActiveHrBlocks(false);
-
-    let founded = 0;
-    items.forEach(element => {
-        if(element.searchText.includes(value)){
-            element.elem.classList.remove("hide");
-            founded++;
-        }
-        else{
-            element.elem.classList.add("hide");
-        }
-    });
-    if(founded == 0)
-        isActiveNothing(true);
-    else
-        isActiveNothing(false);
-});
-
 
 let daysSelectBtns = document.querySelectorAll("#select-days a");
 daysSelectBtns.forEach(button => {
