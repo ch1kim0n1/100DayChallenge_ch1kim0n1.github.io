@@ -87,59 +87,91 @@ function getDatach1kim0n1() {
             new Title(16, "Himouto! Umaru-chan"),
             new Title(17, "Ya Boy Kongming!"),
             new Title(18, "One Piece"),
+            new Title(19, "Bakugan Battle Brawlers"),
+            new Title(20, "Miss Kobayashi's Dragon Maid"),
+            new Title(21, "Overlord"),
+            new Title(22, "Love, Chunibyo & Other Delusions"),
+            new Title(23, "Aharen-san wa Hakarenai"),
+            new Title(24, "Interspecies Reviewers"),
+            new Title(25, "Teasing Master Takagi-san"),
+            new Title(26, "Isekai Quartet"),
+            new Title(27, "Fullmetal Alchemist: Brotherhood"),
+            new Title(28, "Katanagatari"),
+            new Title(29, "!_No answer for this question_!"),
+            new Title(30, "JoJo's Bizarre Adventure")
         ],
 
 
     listItems: [
         {
+            // Day 1
             title: "Very First Anime You Watched",
             link: "https://anilist.co/activity/464575970",
-            image: "images/1.jpg" //day 1
+            image: "images/1.jpg",
+            content: [18, 19] 
         },
         {
+            // Day 2
             title: "Favorite Anime You've Watched So Far",
             link: "https://anilist.co/activity/464958093",
-            image: "images/2.2.jpg" //day 2
+            image: "images/2.2.jpg",
+            content: [5, 13, 20, 1, 12, 2, ]
         },
         {
+            // Day 3
             title: "Favorite Male Anime Character Ever",
             link: "https://anilist.co/activity/465340663",
-            image: "images/3.1.png" //day 3
+            image: "images/3.1.png",
+            content: [0, 11]
         },
         {
+            // Day 4
             title: "Favorite Female Anime Character Ever",
             link: "https://anilist.co/activity/465784021",
-            image: "images/4.jpg" //day 4
+            image: "images/4.jpg",
+            content: [22, 23]
         },
         {
+            // Day 5
             title: "Anime I'm Ashamed I Enjoyed",
             link: "https://anilist.co/activity/466207484",
-            image: "images/5.jpg" //day 5
+            image: "images/5.jpg",
+            content: [24]
         },
         {
+            // Day 6
             title: "Anime I Want to See But Haven't Yet",
             link: "https://anilist.co/activity/466630832",
-            image: "images/6.2.jpg" //day 6
+            image: "images/6.2.jpg",
+            content: [25, 26, 27, 28] 
         },
         {
+            // Day 7
             title: "My Anime Crush",
             link: "https://anilist.co/activity/467134426",
-            image: "images/7.gif" //day 7
+            image: "images/7.gif",
+            content: [29]
         },
         {
+            // Day 8
             title: "Favorite Anime Couple",
             link: "https://anilist.co/activity/467618427",
-            image: "images/8.2.png" //day 8
+            image: "images/8.2.png",
+            content: [25]
         },
         {
+            // Day 9
             title: "Best Anime Villian",
             link: "https://anilist.co/activity/467921021",
-            image: "images/9.png" //day 9
+            image: "images/9.png",
+            content: [13]
         },
         {
+            // Day 10
             title: "Favorite Fighter Anime",
             link: "https://anilist.co/activity/468522251",
-            image: "images/10.23.jpg" //day 10
+            image: "images/10.23.jpg",
+            content: [0, 30]
         },
         {
             title: "Favorite Mecha Anime",
