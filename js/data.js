@@ -44,7 +44,7 @@ function getDatach1kim0n1() {
             {
                 nickname: "SteveDekart",
                 image: "images/users/ST.jpg",
-                url: "https://ch1kim0n1.github.io/100DayChallenge_ch1kim0n1.github.io/",
+                url: "https://anilist.co/user/SteveDekart/",
                 status: Status.Current
             },
             {
