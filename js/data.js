@@ -105,6 +105,12 @@ function getDatach1kim0n1() {
             new Title(34, "Silent Voice"),
             new Title(35, "The Future Diary"),
             new Title(36, "Classroom of the Elite"),
+            new Title(37, "School Babysitters"),
+            new Title(38, "Toradora"),
+            new Title(39, "Call of the Night"),
+            new Title(40, "Seton Academy: Join the Pack"),
+            new Title(41, "BNA"),
+            new Title(42, "DARLING in the FRANXX"),
         ],
 
 
@@ -388,6 +394,36 @@ function getDatach1kim0n1() {
             link: "https://anilist.co/activity/486342518",
             image: "images/34.jpg",
             content: [8]
+        },
+        {
+            title: "Favorite Shoujo Anime", //day 46
+            link: "https://anilist.co/activity/486735302",
+            image: "images/46.jpg",
+            content: [37]
+        },
+        {
+            title: "Favorite Tsundere", //day 47
+            link: "https://anilist.co/activity/486736667",
+            image: "images/47.jpg",
+            content: [38, 39]
+        },
+        {
+            title: "Favorite Harem/Reversed Harem", //day 48
+            link: "https://anilist.co/activity/487117302",
+            image: "images/48.png",
+            content: [40]
+        },
+        {
+            title: "Subs or Dubs", //day 49
+            link: "https://anilist.co/activity/487142110",
+            image: "images/49.jpg",
+            content: [29]
+        },
+        {
+            title: "Favorite Studio", //day 50
+            link: "https://anilist.co/activity/487148643",
+            image: "images/50.jpg",
+            content: [41, 42]
         },
     
     ]
