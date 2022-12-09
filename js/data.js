@@ -127,7 +127,7 @@ function getDatach1kim0n1() {
             title: "Favorite Anime You've Watched So Far",
             link: "https://anilist.co/activity/464958093",
             image: "images/2.2.jpg",
-            content: [5, 13, 20, 1, 12, 2, ]
+            content: [5, 13, 20, 1, 12, 2, 21]
         },
         {
             // Day 3
