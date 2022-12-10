@@ -44,7 +44,7 @@ function getDatach1kim0n1() {
             {
                 nickname: "SteveDekart",
                 image: "images/users/ST.jpg",
-                url: "https://anilist.co/user/SteveDekart/",
+                url: "https://stepan323446.github.io/anime-achievment-100days/",
                 status: Status.Current
             },
             {
@@ -111,6 +111,10 @@ function getDatach1kim0n1() {
             new Title(40, "Seton Academy: Join the Pack"),
             new Title(41, "BNA"),
             new Title(42, "DARLING in the FRANXX"),
+            new Title(43, "Dark Mortal"),
+            new Title(44, "Deadpool: Samurai"),
+            new Title(45, "Question not related to titles")
+
         ],
 
 
@@ -186,241 +190,281 @@ function getDatach1kim0n1() {
             content: [0, 30]
         },
         {
+            // Day 11
             title: "Favorite Mecha Anime",
             link: "https://anilist.co/activity/468995371",
-            image: "images/11.jpg", //day 11
+            image: "images/11.jpg", 
             content: [4]
         },
         {
+            // Day 12
             title: "Saddest Anime Scene",
             link: "https://anilist.co/activity/469345707",
-            image: "images/12.14.jpg", //day 12
+            image: "images/12.14.jpg", 
             content: [1]
         },
         {
+            // Day 13
             title: "Anime Character I am Most Similar to",
             link: "https://anilist.co/activity/470078702",
-            image: "images/13.jpg", //day 13
+            image: "images/13.jpg", 
             content: [15]
         },
         {
-            title: "Saddest Anime Death", //day 14
+            // Day 14
+            title: "Saddest Anime Death", 
             link: "https://anilist.co/activity/470503529",
             image: "images/12.14.jpg",
             content: [1]
         },
         {
-            title: "Favorite Anime Sidekick, Pet, or Summoning", //day 15
+            // Day 15
+            title: "Favorite Anime Sidekick, Pet, or Summoning", 
             link: "https://anilist.co/activity/471125545",
             image: "images/15.jpg",
             content: [31]
         },
         {
-            title: "Anime With the Best Animation", //day 16
+            // Day 16
+            title: "Anime With the Best Animation", 
             link: "https://anilist.co/activity/471886554",
             image: "images/16.jpg",
             content: [32]
         },
         {
-            title: "Favorite Supporting Male Anime Character", //day 17
+            // Day 17
+            title: "Favorite Supporting Male Anime Character",
             link: "https://anilist.co/activity/472019025",
             image: "images/17.jpg",
             content: [13]
         },
         {
-            title: "Favorite Supporting Female Anime Character", //day 18
+            // Day 18
+            title: "Favorite Supporting Female Anime Character", 
             link: "https://anilist.co/activity/472657392",
             image: "images/18.png",
             content: [7]
         },
         {
-            title: "Most Epic Scene Ever", //day 19
+            // Day 19
+            title: "Most Epic Scene Ever",
             link: "https://anilist.co/activity/472810845",
             image: "images/19.jpg",
             content: [33]
         },
         {
-            title: "Anime Character That Gets on My Nerves", //day 20
+            // Day 20
+            title: "Anime Character That Gets on My Nerves",
             link: "https://anilist.co/activity/473309324",
             image: "images/26.jpg",
             content: [2]
         },
         {
-            title: "Favorite Goofy Anime Character", //day 21
+            // Day 21
+            title: "Favorite Goofy Anime Character",
             link: "https://anilist.co/activity/473952625",
             image: "images/21.jpg",
             content: [14]
         },
         {
-            title: "Best Gear, Weapon, or Gun Used in Anime", //day 22
+            // Day 22
+            title: "Best Gear, Weapon, or Gun Used in Anime",
             link: "https://anilist.co/activity/474276091",
             image: "images/22.jpg",
             content: [3]
         },
         {
-            title: "Favorite Attack Someone Used in Anime", //day 23
+            // Day 23
+            title: "Favorite Attack Someone Used in Anime",
             link: "https://anilist.co/activity/474680626",
             image: "images/10.23.jpg",
             content: [0]
         },
         {
-            title: "Moment that Shocked Me the Most in Any Anime", //day 24
+            // Day 24
+            title: "Moment that Shocked Me the Most in Any Anime",
             link: "https://anilist.co/activity/475101190",
             image: "images/24.jpg",
             content: [34]
         },
         {
-            title: "Anime That Never Gets Old No Matter how Many Times You Rewatch It", //day 25
+            // Day 25
+            title: "Anime That Never Gets Old No Matter how Many Times You Rewatch It",
             link: "https://anilist.co/activity/475513617",
             image: "images/25.jpg",
             content: [11, 19, 6, 35]
         },
         {
-            title: "Best Anime Fight", //day 26
+            // Day 26
+            title: "Best Anime Fight",
             link: "https://anilist.co/activity/475861077",
             image: "images/26.jpg",
             content: [2]
         },
         {
-            title: "Most Badass Scene from Any Anime Character", //day 27
+            // Day 27
+            title: "Most Badass Scene from Any Anime Character",
             link: "https://anilist.co/activity/477420977",
             image: "images/27.30.jpg",
             content: [5]
         },
         {
-            title: "Favorite Quote From Any Anime Character", //day 28
+            // Day 28
+            title: "Favorite Quote From Any Anime Character",
             link: "https://anilist.co/activity/477423211",
             image: "images/28.jpg",
             content: [6]
         },
         {
-            title: "An Anime You Wished was Real", //day 29
+            // Day 29
+            title: "An Anime You Wished was Real",
             link: "https://anilist.co/activity/477424496",
             image: "images/29.jpg",
-            content: [29]
+            content: [25, 43, 44]
         },
         {
-            title: "An Anime You wish Never Ended and Continued On", //day 30
+            // Day 30
+            title: "An Anime You wish Never Ended and Continued On",
             link: "https://anilist.co/activity/479010200",
             image: "images/27.30.jpg",
             content: [5]
         },
         {
-            title: "Favorite Anime OP", //day 31
+            // Day 31
+            title: "Favorite Anime OP",
             link: "https://anilist.co/activity/479010567",
             image: "images/31.jpg",
             content: [17]
         },
         {
-            title: "Which Anime Character would I want to be as Best Friend", //day 32
+            // Day 32
+            title: "Which Anime Character would I want to be as Best Friend",
             link: "https://anilist.co/activity/479012598",
             image: "images/32.jpg",
             content: [16]
         },
         {
-            title: "Anime Character I Would Like to Cosplay", //day 33
+            // Day 33
+            title: "Anime Character I Would Like to Cosplay",
             link: "https://anilist.co/activity/480201598",
             image: "images/10.23.jpg",
             content: [0]
         },
         {
-            title: "What Anime Character Would be My Workout Buddy", //day 34
+            // Day 34
+            title: "What Anime Character Would be My Workout Buddy",
             link: "https://anilist.co/activity/480203871",
             image: "images/34.jpg",
             content: [8]
         },
         {
-            title: "What Crossover I Would Like to See", //day 35
+            // Day 35
+            title: "What Crossover I Would Like to See",
             link: "https://anilist.co/activity/480205220",
             image: "images/22.jpg",
             content: [5, 3]
         },
         {
-            title: "My First Anime Crush", //day 36
+            // Day 36
+            title: "My First Anime Crush",
             link: "https://anilist.co/activity/481499685",
             image: "images/36.png",
             content: [9]
         },
         {
-            title: "Anime That Changed Me", //day 37
+            // Day 37
+            title: "Anime That Changed Me",
             link: "https://anilist.co/activity/481500301",
             image: "images/37.jpg",
             content: [10]
         },
         {
-            title: "Do I like Yaoi/Yuri", //day 38
+            // Day 38
+            title: "Do I like Yaoi/Yuri",
             link: "https://anilist.co/activity/481501530",
             image: "images/38.png",
             content: [20]
         },
         {
-            title: "Favorite Music in an anime", //day 39
+            // Day 39
+            title: "Favorite Music in an anime",
             link: "https://anilist.co/activity/483948838",
             image: "images/31.jpg",
             content: [12, 17]
         },
         {
-            title: "Favorite VA/seiyuu", //day 40
+            // Day 40
+            title: "Favorite VA/seiyuu",
             link: "https://anilist.co/activity/483950083",
             image: "images/40.png",
-            content: [29]
+            content: [45]
         },
         {
-            title: "Anime Character I Hate", //day 41
+            // Day 41
+            title: "Anime Character I Hate",
             link: "https://anilist.co/activity/483950740",
             image: "images/41.png",
             content: [36]
         },
         {
-            title: "Most Shocking Anime Scene", //day 42
+            // Day 42
+            title: "Most Shocking Anime Scene",
             link: "https://anilist.co/activity/483953137",
             image: "images/13.jpg",
             content: [15]
         },
         {
-            title: "Favorite Cannon Couple", //day 43
+            // Day 43
+            title: "Favorite Cannon Couple", 
             link: "https://anilist.co/activity/483954050",
             image: "images/15.jpg",
             content: [31]
         },
         {
-            title: "Who do I ship", //day 44
+            // Day 44
+            title: "Who do I ship",
             link: "https://anilist.co/activity/483954564",
             image: "images/44.gif",
             content: [29]
         },
         {
-            title: "Favorite Anime ED", //day 45
+            // Day 45
+            title: "Favorite Anime ED",
             link: "https://anilist.co/activity/486342518",
             image: "images/34.jpg",
             content: [8]
         },
         {
-            title: "Favorite Shoujo Anime", //day 46
+            // Day 46
+            title: "Favorite Shoujo Anime",
             link: "https://anilist.co/activity/486735302",
             image: "images/46.jpg",
             content: [37]
         },
         {
-            title: "Favorite Tsundere", //day 47
+            // Day 47
+            title: "Favorite Tsundere",
             link: "https://anilist.co/activity/486736667",
             image: "images/47.jpg",
             content: [38, 39]
         },
         {
-            title: "Favorite Harem/Reversed Harem", //day 48
+            // Day 48
+            title: "Favorite Harem/Reversed Harem",
             link: "https://anilist.co/activity/487117302",
             image: "images/48.png",
             content: [40]
         },
         {
-            title: "Subs or Dubs", //day 49
+            // Day 49
+            title: "Subs or Dubs",
             link: "https://anilist.co/activity/487142110",
             image: "images/49.jpg",
-            content: [29]
+            content: [45]
         },
         {
-            title: "Favorite Studio", //day 50
+            // Day 50
+            title: "Favorite Studio",
             link: "https://anilist.co/activity/487148643",
             image: "images/50.jpg",
             content: [41, 42]
