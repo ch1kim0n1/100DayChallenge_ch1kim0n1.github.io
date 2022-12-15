@@ -160,24 +160,40 @@ listSort.forEach(element => {
     listTitles[element.index].isShowing = true;
 });
 // Кнопка "Другие", которая при клике показывает все тайтлы
-elemTextStat("Others", "#5c5c5c", procLeft, function(e){
-    listTitles.forEach(element => {
-        // Если элемент ещё не показан, значит его показывать после клика в статистике
-        if(element.isShowing == false){
-            // Опять высчитываем проценты
-            let proc = element.count * 100 / allTitlesCount;
-            // Создаём кнопку с теми же функциями, что и основную
-            elemTextStat(element.title, "#5c5c5c", proc, function(e){
-                showItemsWithTitle(element.id);
-                element.isShowing = true;
+othersBtn();
+
+function othersBtn() {
+    elemTextStat("Others", "#5c5c5c", procLeft, function(e){
+        let otherTitleBtns = [];
+
+        listTitles.forEach(element => {
+            if(element.isShowing == false){
+                let proc = element.count * 100 / allTitlesCount;
+                otherTitleBtns.push(elemTextStat(element.title, "#5c5c5c", proc, function(e){
+                    showItemsWithTitle(element.id);
+                }));
+            }
+        });
+        e.currentTarget.remove();
+
+        // Добавить кнопку "Скрыть" для открытого списка
+        let closeOthersBtn = document.createElement("a");
+        closeOthersBtn.setAttribute("href", "#")
+        closeOthersBtn.classList.add("btn");
+        closeOthersBtn.textContent = "Hide";
+
+        closeOthersBtn.addEventListener("click", function(e){
+            e.preventDefault();
+            otherTitleBtns.forEach(element => { //Error is somewhere here (Cannot read properties of undefined (reading 'remove'))
+                element.remove();
             });
-        }
+            othersBtn();
+            e.currentTarget.remove();
+            window.open("#other-users", "_self");
+        })
+        statsGraphText.append(closeOthersBtn);
     });
-
-    // Удалить кнопку "Others", т.к. она уже не нужна
-    e.currentTarget.remove();
-});
-
+}
 // Показать в списке вопросов дня только те, что содержат индекс тайтла
 function showItemsWithTitle(indexTitle){
     daysSelectBtns.forEach(btn => {

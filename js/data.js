@@ -48,6 +48,12 @@ function getDatach1kim0n1() {
                 status: Status.Current
             },
             {
+                nickname: "F41NZ",
+                image: "images/users/F41NZ.jpg",
+                url: "https://anilist.co/user/F41NZ/",
+                status: Status.Current
+            },
+            {
                 nickname: "GreenDavid004",
                 image: "images/users/david.jpg",
                 url: "https://anilist.co/user/GreenDavid004/",
@@ -113,7 +119,10 @@ function getDatach1kim0n1() {
             new Title(42, "DARLING in the FRANXX"),
             new Title(43, "Dark Mortal"),
             new Title(44, "Deadpool: Samurai"),
-            new Title(45, "Question not related to titles")
+            new Title(45, "Question not related to titles"),
+            new Title(46, "Midori Days"),
+            new Title(47, "The Promised Neverlands"),
+            new Title(48, "Belle")
 
         ],
 
@@ -397,7 +406,7 @@ function getDatach1kim0n1() {
             title: "Favorite VA/seiyuu",
             link: "https://anilist.co/activity/483950083",
             image: "images/40.png",
-            content: [45]
+            content: [13, 25, 3, 1, 23]
         },
         {
             // Day 41
@@ -425,7 +434,7 @@ function getDatach1kim0n1() {
             title: "Who do I ship",
             link: "https://anilist.co/activity/483954564",
             image: "images/44.gif",
-            content: [29]
+            content: [20]
         },
         {
             // Day 45
@@ -469,7 +478,55 @@ function getDatach1kim0n1() {
             image: "images/50.jpg",
             content: [41, 42]
         },
-    
+        {
+            // Day 51
+            title: "Experience of being bullied for liking anime",
+            link: "https://anilist.co/activity/488428207",
+            image: "images/gifs/3.gif",
+            content: [45]
+        },    
+        {
+            // Day 52
+            title: "Anime character I want to be look like",
+            link: "https://anilist.co/activity/488429708",
+            image: "images/12.14.jpg",
+            content: [1]
+        },    
+        {
+            // Day 53
+            title: "Anime Scene that Made Me Cry",
+            link: "https://anilist.co/activity/488437769",
+            image: "images/53.jpg",
+            content: [47, 48, 1, 11, 25]
+        },   
+        {
+            // Day 54
+            title: "Anime Recommendation that Most People May not Have Seen",
+            link: "https://anilist.co/activity/489001508",
+            image: "images/54.png",
+            content: [46]
+        }, 
+        {
+            // Day 55
+            title: "Do you share your anime interests with anyone",
+            link: "https://anilist.co/activity/489692013",
+            image: "images/53.jpg",
+            content: [1, 11, 5, 7]
+        }, 
+        {
+            // Day 56
+            title: "My favorite character",
+            link: "https://anilist.co/activity/489692366",
+            image: "images/10.23.jpg",
+            content: [0]
+        }, 
+        {
+            // Day 57
+            title: "What anime has my heart",
+            link: "https://anilist.co/activity/489692780",
+            image: "images/8.2.png",
+            content: [25]
+        }, 
     ]
 }
 
