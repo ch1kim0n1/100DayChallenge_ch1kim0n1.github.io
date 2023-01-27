@@ -1,89 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>100 Days Anime Challenge</title>
 
-    <link rel="icon" type="image/x-icon" href="icon.webp.png">
+    <link rel="icon" type="image/x-icon" href="icon.svg">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;500&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;500&family=Secular+One&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css?ver=3.0">    
-  </head>
-  <body>
-      <header>
+    <link rel="stylesheet" href="css/style.css?ver=12.0">
+</head>
+
+<body>
+    <header>
         <div class="container">
             <div class="header-inner">
-                <div class="special-gif">
+                <div class="logo">
                     <img src="images/100-Days-Anime-Challenge-5.gif" alt="">
                 </div>
                 <div class="nickname">
-                        <a href="https://anilist.co/user/CH1KIM0N1/">
-                            CH1KIM0N1
-                        </a>
-                </div>
-                <div class = "special">
-                    <img src="images/pfp.png" alt="" style="width:50px"> 
+                    <a href="https://anilist.co/user/SteveDekart/">SteveDekart</a>
                 </div>
             </div>
         </div>
-      </header>
-      
-      <div class="content">
+    </header>
+
+    <div class="content">
         <div class="container">
+            <div class="challenge-image">
+                <a href="images/E8DegsGXoAAz6NP.jpg" target="_blank">
+                    <img src="images/E8DegsGXoAAz6NP.jpg" alt="">
+                </a>
+            </div>
             <h1>
                 100 Days Anime Challenge
             </h1>
-            <div class = "row">
-                <div class="challenge-image">
-                    <a href="images/E8DegsGXoAAz6NP.jpg" target="_blank">
-                        <img src="images/E8DegsGXoAAz6NP.jpg" alt="">
-                    </a>
-                </div>
-                <div class = "gif-right">
-                    <img src="images/gifs/1.gif" alt="">
-                </div>
-            </div>
             <div class="information">
                 <div class="text">
-                    Based on the rules of the challenge, I have to post every day and use a different anime. It's okay if anime is repeated, but you can't do it all the time.
+                    Every day, strictly according to the list, it is required to mark different anime. It can be
+                    characters, moments, the series itself, etc.
                 </div>
                 <div class="text">
-                    WARNING! This is not Anilist. Anilist is <a href="https://anilist.co/">here</a>
+                    This is not actually Anilist site. If you want to go to Anilist, <a href="https://anilist.co/">click
+                        here</a>
                 </div>
                 <div class="date">
                     <div class="date-block">
-                        23/10/2022
+                        03.11.2022
                     </div>
                     <span> — </span>
                     <div class="date-block">
-                        Today
+                        Now
                     </div>
                 </div>
             </div>
-            <div class="center">
-                <div class="pagination" id="select-days">
-                    <a href="#" class="active" min-day="1" max-day="100">All</a>
-                    <a href="#" min-day="1" max-day="20">Day 1-20</a>
-                    <a href="#" min-day="21" max-day="40">Day 21-40</a>
-                    <a href="#" min-day="41" max-day="60">Day 41-60</a>
-                    <a href="#" min-day="61" max-day="80">Day 61-80</a>
-                    <a href="#" min-day="81" max-day="100">Day 81-100</a>
+            <div class="sort">
+                <h2>Display</h2>
+                <div class="blocks">
+                    <div class="block">
+                        <div class="range-days sub-block">
+                            <h4>Range of days</h4>
+                            <div id="select-days" class="select-ordinary">
+                                <div class="select selected" min-day="1" max-day="100">All</div>
+                                <div class="select" min-day="1" max-day="20">1-20</div>
+                                <div class="select" min-day="21" max-day="40">21-40</div>
+                                <div class="select" min-day="41" max-day="60">41-60</div>
+                                <div class="select" min-day="61" max-day="80">61-80</div>
+                                <div class="select" min-day="81" max-day="100">81-100</div>
+                            </div>
+                        </div>
+                        <div class="type-sort">
+                            <h4>Type of sort</h4>
+                            <div id="select-type-sort" class="select-ordinary">
+                                <div class="select selected" type-sort="days">By days</div>
+                                <div class="select" type-sort="likes">By likes</div>
+                                <div class="select" type-sort="difficulty">By difficulty</div>
+                            </div>
+                        </div>
+                        <div class="show-tags">
+                            <h4>Taxonomies</h4>
+                            <div id="show-tags-type">
+                                <div class="select selected" hide-class="hide-days">Days</div>
+                                <div class="select" hide-class="hide-likes">Likes</div>
+                                <div class="select" hide-class="hide-difficulty">Difficulty</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <h4>Search</h4>
+                        <input id="search-input" type="text" placeholder="Find out more!">
+                        <div class="subtext-input">You can write the number of the day (18 Day), the question of the day
+                            or title of anime</div>
+                    </div>
                 </div>
             </div>
             <div class="other-users">
-                <h2>Other User Lists</h2>
+                <h2>Other lists from users</h2>
                 <div id="other-users">
                 </div>
             </div>
 
             <div class="stats">
-                <h2> Most Used Titles</h2>
+                <h2>Statistics (Number of titles)</h2>
                 <div id="stats-number__graph">
 
                 </div>
@@ -91,24 +117,25 @@
 
                 </div>
             </div>
-            <div id="challenge-items">
-                <div id="nothing-text" class="hide">
-                    
-                </div>
+
+            <div class="like-btn">
+                <span class="likebtn-wrapper" data-ef_voting="bounce" data-identifier="item_1"
+                    data-dislike_enabled="false" data-icon_l="hrt1" data-icon_l_c="#ffffff" data-i18n_like="Like me"></span>
+                <script>(function (d, e, s) { if (d.getElementById("likebtn_wjs")) return; a = d.createElement(e); m = d.getElementsByTagName(e)[0]; a.async = 1; a.id = "likebtn_wjs"; a.src = s; m.parentNode.insertBefore(a, m) })(document, "script", "//w.likebtn.com/js/w/widget.js");</script>
+            </div>
+
+
+            <div id="challenge-items" class="hide-difficulty hide-likes">
             </div>
         </div>
-        
-      </div>
 
-      <script src="js/data.js?ver=38.0"></script>
-      <script src="js/main.js?ver=13.5"></script>
-      <footer>
-        Lets make this challenge amazing! (P.S. I update this website once a week, so some challenge days may be missing)
-        <div class = "gif-footer">
-            <a href = "https://anilist.co/user/CH1KIM0N1/reviews" target="_blanck">
-                <img src="images/gifs/2.gif" alt="">
-            </a>
-        </div>
-       </footer>
-  </body>
+    </div>
+
+    <script src="js/data.js?ver=85.0"></script>
+    <script src="js/main.js?ver=85.0"></script>
+    <footer>
+        Thank you!
+    </footer>
+</body>
+
 </html>
