@@ -562,7 +562,49 @@ function getDatach1kim0n1() {
             link: "https://anilist.co/activity/489692780",
             image: "images/8.2.png",
             content: [25]
-        }, 
+        },
+        {
+            // Day 58
+            title: "Favorite Hentai Anime",
+            link: "https://anilist.co/activity/495702688",
+            image: "images/5.png",
+            content: [24]
+        },
+        {
+            // Day 59
+            title: "Favorite Yaoi Anime",
+            link: "https://anilist.co/activity/495913906",
+            image: "images/7.gif",
+            content: [29]
+        },
+        {
+            // Day 60
+            title: "Manga I Wish Would Turn Into Anime",
+            link: "https://anilist.co/activity/495916379",
+            image: "images/60.png",
+            content: [44]
+        },
+        {
+            // Day 61
+            title: "Anime that I am Currently Watching",
+            link: "https://anilist.co/activity/497231789",
+            image: "images/61.png",
+            content: [20, 9, 8, 1]
+        },
+        {
+            // Day 62
+            title: "Favorite Anime Movie",
+            link: "https://anilist.co/activity/497232169",
+            image: "images/62.jpeg",
+            content: [34, 48]
+        },
+        {
+            // Day 63
+            title: "Favorite Shonen Anime",
+            link: "https://anilist.co/activity/497232652",
+            image: "images/12.14.jpeg",
+            content: [1]
+        },
     ]
 }
 
