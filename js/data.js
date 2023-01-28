@@ -24,6 +24,12 @@ function getDatach1kim0n1() {
     let ch1kim0n1 = {
         otherUsers: [
             {
+                nickname: "SteveDekart",
+                image: "images/users/ST.jpg",
+                url: "https://stepan323446.github.io/anime-achievment-100days/",
+                status: Status.Current
+            },
+            {
                 nickname: "GHAUR1",
                 image: "images/users/Ghaur1.png",
                 url: "https://anilist.co/activity/474754966",
@@ -42,9 +48,9 @@ function getDatach1kim0n1() {
                 status: Status.Complete
             },
             {
-                nickname: "SteveDekart",
-                image: "images/users/ST.jpg",
-                url: "https://stepan323446.github.io/anime-achievment-100days/",
+                nickname: "GreenDavid004",
+                image: "images/users/david.jpg",
+                url: "https://davidk004.github.io/100-day-challenge/",
                 status: Status.Current
             },
             {
@@ -54,9 +60,39 @@ function getDatach1kim0n1() {
                 status: Status.Current
             },
             {
-                nickname: "GreenDavid004",
-                image: "images/users/david.jpg",
-                url: "https://anilist.co/user/GreenDavid004/",
+                nickname: "BommieBomBom",
+                image: "images/users/BommieBomBom.jpg",
+                url: "https://anilist.co/user/BommieBomBom",
+                status: Status.Current
+            },
+            {
+                nickname: "sololol",
+                image: "images/users/sololol.jpg",
+                url: "https://anilist.co/user/sololol",
+                status: Status.Current
+            },
+            {
+                nickname: "RossyNarukami",
+                image: "images/users/RossyHarukami.png",
+                url: "https://anilist.co/user/RossyNarukami/",
+                status: Status.Current
+            },
+            {
+                nickname: "stephonee",
+                image: "images/users/stephonee.png",
+                url: "https://anilist.co/user/stephonee",
+                status: Status.Current
+            },
+            {
+                nickname: "bokut0",
+                image: "images/users/bokut0.png",
+                url: "https://anilist.co/user/bokut0",
+                status: Status.Current
+            },
+            {
+                nickname: "keiikeii",
+                image: "images/users/keiikeii.png",
+                url: "https://anilist.co/user/keiikeii/",
                 status: Status.Current
             },
             {
