@@ -5,8 +5,6 @@ function getDatach1kim0n1() {
         Failed: "failed"
     }
 
-    // Создание объекта тайтла
-    /////////////////////////////////////////////////////////
     class Title {
         id;
         title;
@@ -28,24 +26,6 @@ function getDatach1kim0n1() {
                 image: "images/users/ST.jpg",
                 url: "https://stepan323446.github.io/anime-achievment-100days/",
                 status: Status.Current
-            },
-            {
-                nickname: "GHAUR1",
-                image: "images/users/Ghaur1.png",
-                url: "https://anilist.co/activity/474754966",
-                status: Status.Complete
-            },
-            {
-                nickname: "OskarL",
-                image: "images/users/OskarL.jpg",
-                url: "https://anilist.co/activity/478516794",
-                status: Status.Complete
-            },
-            {
-                nickname: "Karandi",
-                image: "images/users/Karandi.webp",
-                url: "https://100wordanime.blog/category/30-day-anime-challenge/",
-                status: Status.Complete
             },
             {
                 nickname: "GreenDavid004",
@@ -72,18 +52,6 @@ function getDatach1kim0n1() {
                 status: Status.Current
             },
             {
-                nickname: "RossyNarukami",
-                image: "images/users/RossyHarukami.png",
-                url: "https://anilist.co/user/RossyNarukami/",
-                status: Status.Current
-            },
-            {
-                nickname: "stephonee",
-                image: "images/users/stephonee.png",
-                url: "https://anilist.co/user/stephonee",
-                status: Status.Current
-            },
-            {
                 nickname: "bokut0",
                 image: "images/users/bokut0.png",
                 url: "https://anilist.co/user/bokut0",
@@ -96,6 +64,18 @@ function getDatach1kim0n1() {
                 status: Status.Current
             },
             {
+                nickname: "stephonee",
+                image: "images/users/stephonee.png",
+                url: "https://anilist.co/user/stephonee",
+                status: Status.Current
+            },
+            {
+                nickname: "RossyNarukami",
+                image: "images/users/RossyHarukami.png",
+                url: "https://anilist.co/activity/507121677",
+                status: Status.Failed
+            },
+            {
                 nickname: "Ani-Dotes",
                 image: "images/users/dotes.jpg",
                 url: "https://anidotesblog.wordpress.com/100-day-anime-challenge/",
@@ -106,7 +86,25 @@ function getDatach1kim0n1() {
                 image: "images/users/CelestialSparkles.png",
                 url: "https://howanimestuffworks176744600.wordpress.com/category/anime-challenges-events/100-days-of-anime-challenge/",
                 status: Status.Failed
-            }
+            },
+            {
+                nickname: "GHAUR1",
+                image: "images/users/Ghaur1.png",
+                url: "https://anilist.co/activity/474754966",
+                status: Status.Complete
+            },
+            {
+                nickname: "OskarL",
+                image: "images/users/OskarL.jpg",
+                url: "https://anilist.co/activity/478516794",
+                status: Status.Complete
+            },
+            {
+                nickname: "Karandi",
+                image: "images/users/Karandi.webp",
+                url: "https://100wordanime.blog/category/30-day-anime-challenge/",
+                status: Status.Complete
+            },
         ],
 
         listTitles: [
@@ -158,7 +156,9 @@ function getDatach1kim0n1() {
             new Title(45, "Question not related to titles"),
             new Title(46, "Midori Days"),
             new Title(47, "The Promised Neverlands"),
-            new Title(48, "Belle")
+            new Title(48, "Belle"),
+            new Title(49, "BLUELOCK"),
+            new Title(50, "Komi Cant Communicate")
 
         ],
 
@@ -567,7 +567,7 @@ function getDatach1kim0n1() {
             // Day 58
             title: "Favorite Hentai Anime",
             link: "https://anilist.co/activity/495702688",
-            image: "images/5.png",
+            image: "images/5.jpg",
             content: [24]
         },
         {
@@ -581,7 +581,7 @@ function getDatach1kim0n1() {
             // Day 60
             title: "Manga I Wish Would Turn Into Anime",
             link: "https://anilist.co/activity/495916379",
-            image: "images/60.png",
+            image: "images/60.jpg",
             content: [44]
         },
         {
@@ -595,15 +595,71 @@ function getDatach1kim0n1() {
             // Day 62
             title: "Favorite Anime Movie",
             link: "https://anilist.co/activity/497232169",
-            image: "images/62.jpeg",
+            image: "images/62.jpg",
             content: [34, 48]
         },
         {
             // Day 63
             title: "Favorite Shonen Anime",
             link: "https://anilist.co/activity/497232652",
-            image: "images/12.14.jpeg",
+            image: "images/12.14.jpg",
             content: [1]
+        },
+        {
+            // Day 64
+            title: "Favorite Shojo Anime",
+            link: "https://anilist.co/activity/497233651",
+            image: "images/8.2.png",
+            content: [25]
+        },
+        {
+            // Day 65
+            title: "Favorite Sports Anime",
+            link: "https://anilist.co/activity/497234112",
+            image: "images/61.png",
+            content: [49]
+        },
+        {
+            // Day 66
+            title: "Favorite Slice-Of-Life Anime",
+            link: "https://anilist.co/activity/497234267",
+            image: "images/66.png",
+            content: [50]
+        },
+        {
+            // Day 67
+            title: "Favorite Comedy Anime",
+            link: "https://anilist.co/activity/497234508",
+            image: "images/18.png",
+            content: [7, 20]
+        },
+        {
+            // Day 68
+            title: "Favorite Science Fiction Anime",
+            link: "https://anilist.co/activity/497235495",
+            image: "images/68.jpg",
+            content: [47]
+        },
+        {
+            // Day 69
+            title: "Favorite Action/Adventure Anime",
+            link: "https://anilist.co/activity/497236105",
+            image: "images/53.jpg",
+            content: [11, 5, 1]
+        },
+        {
+            // Day 70
+            title: "Favorite Fantasy Anime",
+            link: "https://anilist.co/activity/503570145",
+            image: "images/44.gif",
+            content: [20]
+        },
+        {
+            // Day 71
+            title: "Favorite Romance Anime",
+            link: "https://anilist.co/activity/503570512",
+            image: "images/66.png",
+            content: [3, 50, 13]
         },
     ]
 }
