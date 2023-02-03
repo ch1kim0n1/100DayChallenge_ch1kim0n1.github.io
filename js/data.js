@@ -140,7 +140,6 @@ function getDatach1kim0n1() {
             new Title(29, "!_No answer for this question_!"),
             new Title(30, "JoJo's Bizarre Adventure"),
             new Title(31, "Naruto"),
-            new Title(32, "BAKI"),
             new Title(33, "My Hero Academia"),
             new Title(34, "Silent Voice"),
             new Title(35, "The Future Diary"),
@@ -158,7 +157,11 @@ function getDatach1kim0n1() {
             new Title(47, "The Promised Neverlands"),
             new Title(48, "Belle"),
             new Title(49, "BLUELOCK"),
-            new Title(50, "Komi Cant Communicate")
+            new Title(50, "Komi Cant Communicate"),
+            new Title(51, "To Your Eternity"),
+            new Title(52, "In Another World With a Smartphone"),
+            new Title(53, "Log Horizon"),
+            new Title(54, "Cells At Work")
 
         ],
 
@@ -273,8 +276,8 @@ function getDatach1kim0n1() {
             // Day 16
             title: "Anime With the Best Animation", 
             link: "https://anilist.co/activity/471886554",
-            image: "images/16.jpg",
-            content: [32]
+            image: "images/12.14.jpg",
+            content: [1]
         },
         {
             // Day 17
@@ -660,6 +663,34 @@ function getDatach1kim0n1() {
             link: "https://anilist.co/activity/503570512",
             image: "images/66.png",
             content: [3, 50, 13]
+        },
+        {
+            // Day 72
+            title: "Overrated Anime",
+            link: "https://anilist.co/activity/503571010",
+            image: "images/72.jpg",
+            content: [51, 52]
+        },
+        {
+            // Day 73
+            title: "Underrated Anime",
+            link: "https://anilist.co/activity/503571470",
+            image: "images/73.png",
+            content: [53, 54]
+        },
+        {
+            // Day 74
+            title: "Anime That Got me Into Anime",
+            link: "https://anilist.co/activity/503571910",
+            image: "images/25.jpg",
+            content: [11, 12, 7, 19]
+        },
+        {
+            // Day 74
+            title: "Favorite Anime Friendship",
+            link: "https://anilist.co/activity/503572741",
+            image: "images/61.png",
+            content: [49]
         },
     ]
 }
