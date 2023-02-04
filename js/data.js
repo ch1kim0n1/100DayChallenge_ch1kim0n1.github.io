@@ -110,8 +110,8 @@ function getDatach1kim0n1() {
                 image: "images/users/Karandi.webp",
                 url: "https://100wordanime.blog/category/30-day-anime-challenge/",
                 status: Status.Complete
-            },
-        ],
+            }
+        ]
 
         listTitles: [
             new Title(0, "One Punch Man"),
