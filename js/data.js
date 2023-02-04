@@ -146,6 +146,7 @@ function getDatach1kim0n1() {
             new Title(29, "!_No answer for this question_!"),
             new Title(30, "JoJo's Bizarre Adventure"),
             new Title(31, "Naruto"),
+            new Title(32, "NONE"),
             new Title(33, "My Hero Academia"),
             new Title(34, "Silent Voice"),
             new Title(35, "The Future Diary"),
