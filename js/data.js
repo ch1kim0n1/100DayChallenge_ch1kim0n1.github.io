@@ -111,7 +111,7 @@ function getDatach1kim0n1() {
                 url: "https://100wordanime.blog/category/30-day-anime-challenge/",
                 status: Status.Complete
             }
-        ]
+        ],
 
         listTitles: [
             new Title(0, "One Punch Man"),
