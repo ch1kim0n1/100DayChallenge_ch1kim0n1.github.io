@@ -141,39 +141,6 @@ window.addEventListener("scroll", function (e) {
 
 allItemsLoad();
 
-// Поиск в реальном времени
-let searchInput = document.getElementById("search-input");
-searchInput.addEventListener("input", function (e) {
-
-    // Отключить кнопки-сортировки
-    daysSelectBtns.forEach(btn => {
-        btn.classList.remove("selected");
-    });
-
-    clearItems();
-    // Поиск
-    let value = e.currentTarget.value.toLowerCase();
-    if (value == "") {
-        allItemsLoad();
-        isActiveNothing(false);
-        resetDaysSelectDisplay();
-
-        return;
-    }
-
-    let founded = 0;
-    items.forEach(element => {
-        if (element.searchText.includes(value)) {
-            createItem(element);
-            founded++;
-        }
-    });
-    if (founded == 0)
-        isActiveNothing(true);
-    else
-        isActiveNothing(false);
-});
-
 // Кнопки, где только один выбранный элемент
 let groupSelectOrdinary = document.querySelectorAll(".select-ordinary");
 groupSelectOrdinary.forEach(group => {
