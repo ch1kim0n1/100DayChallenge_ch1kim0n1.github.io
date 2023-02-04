@@ -34,6 +34,12 @@ function getDatach1kim0n1() {
                 status: Status.Current
             },
             {
+                nickname: "IamVoid",
+                image: "images/users/IamVoid.png",
+                url: "https://anilist.co/user/IamVoid/",
+                status: Status.Current
+            },
+            {
                 nickname: "F41NZ",
                 image: "images/users/F41NZ.jpg",
                 url: "https://anilist.co/user/F41NZ/",
