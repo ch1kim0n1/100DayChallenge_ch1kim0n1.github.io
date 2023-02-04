@@ -691,7 +691,7 @@ function getDatach1kim0n1() {
             link: "https://anilist.co/activity/503572741",
             image: "images/61.png",
             content: [49]
-        },
+        }
     ]
 }
 
