@@ -45,17 +45,17 @@ function getDatach1kim0n1() {
                 url: "https://anilist.co/user/F41NZ/",
                 status: Status.Current
             },
-            {
+             {
                 nickname: "BommieBomBom",
                 image: "images/users/BommieBomBom.jpg",
-                url: "https://anilist.co/user/BommieBomBom",
-                status: Status.Current
+                url: "https://anilist.co/activity/511724013",
+                status: Status.Failed
             },
             {
                 nickname: "sololol",
                 image: "images/users/sololol.jpg",
-                url: "https://anilist.co/user/sololol",
-                status: Status.Current
+                url: "https://anilist.co/activity/507360023",
+                status: Status.Failed
             },
             {
                 nickname: "bokut0",
