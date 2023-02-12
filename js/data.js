@@ -168,7 +168,8 @@ function getDatach1kim0n1() {
             new Title(51, "To Your Eternity"),
             new Title(52, "In Another World With a Smartphone"),
             new Title(53, "Log Horizon"),
-            new Title(54, "Cells At Work")
+            new Title(54, "Cells At Work"),
+            new Title(55, "My Love Story")
 
         ],
 
@@ -693,11 +694,46 @@ function getDatach1kim0n1() {
             content: [11, 12, 7, 19]
         },
         {
-            // Day 74
+            // Day 75
             title: "Favorite Anime Friendship",
             link: "https://anilist.co/activity/503572741",
             image: "images/61.png",
             content: [49]
+        },
+         {
+            // Day 76
+            title: "Favorite Anime Bromance",
+            link: "https://anilist.co/activity/503573028",
+            image: "images/7.gif",
+            content: [29]
+        },
+         {
+            // Day 77
+            title: "Favorite Anime Rivalty",
+            link: "https://anilist.co/activity/503573811",
+            image: "images/10.23.jpg",
+            content: [0]
+        },
+         {
+            // Day 78
+            title: "Favorite Anime Team",
+            link: "https://anilist.co/activity/503574284",
+            image: "images/53.jpg",
+            content: [11]
+        },
+         {
+            // Day 79
+            title: "Favorite Anime Quote",
+            link: "https://anilist.co/activity/503575074",
+            image: "images/79.jpg",
+            content: [13]
+        },
+         {
+            // Day 80
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
         }
     ]
 }
