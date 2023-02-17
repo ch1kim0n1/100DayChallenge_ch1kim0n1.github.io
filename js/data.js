@@ -735,6 +735,41 @@ function getDatach1kim0n1() {
             image: "images/8.2.png",
             content: [25, 15, 0, 55, 5, 1]
         }
+        {
+            // Day 81
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
+        }
+    {
+            // Day 82
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
+        }
+    {
+            // Day 83
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
+        }
+    {
+            // Day 84
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
+        }
+    {
+            // Day 85
+            title: "Favorite Scene",
+            link: "https://anilist.co/activity/510896093",
+            image: "images/8.2.png",
+            content: [25, 15, 0, 55, 5, 1]
+        }
     ]
 }
 
