@@ -734,42 +734,77 @@ function getDatach1kim0n1() {
             link: "https://anilist.co/activity/510896093",
             image: "images/8.2.png",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
         {
-            // Day 81
-            title: "Favorite Scene",
-            link: "https://anilist.co/activity/510896093",
-            image: "images/8.2.png",
+            // Day 81 ------------------------------- FROM HERE ADD PICTURES AND EDIT CATEGORIES ---------------------------------------------
+            title: "Favorite Episode",
+            link: "https://anilist.co/activity/510897060",
+            image: "image.add",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
     {
             // Day 82
-            title: "Favorite Scene",
-            link: "https://anilist.co/activity/510896093",
-            image: "images/8.2.png",
+            title: "Most Annoying Anime Character",
+            link: "https://anilist.co/activity/510897778",
+            image: "image.add",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
     {
             // Day 83
-            title: "Favorite Scene",
-            link: "https://anilist.co/activity/510896093",
-            image: "images/8.2.png",
+            title: "Ecchi moment from favorite anime",
+            link: "https://anilist.co/activity/511372438",
+            image: "image.add",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
     {
             // Day 84
-            title: "Favorite Scene",
-            link: "https://anilist.co/activity/510896093",
+            title: "Most Recent Anime Wallpaper",
+            link: "https://anilist.co/activity/514514384",
             image: "images/8.2.png",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
     {
             // Day 85
-            title: "Favorite Scene",
-            link: "https://anilist.co/activity/510896093",
-            image: "images/8.2.png",
+            title: "Favorite Shoujo Anime",
+            link: "https://anilist.co/activity/514515002",
+            image: "image.add",
             content: [25, 15, 0, 55, 5, 1]
-        }
+        },
+         {
+            // Day 86
+            title: "Favorite Yandere Character",
+            link: "https://anilist.co/activity/514515781",
+            image: "image.add",
+            content: [25, 15, 0, 55, 5, 1]
+        },
+         {
+            // Day 87
+            title: "Favorite Anime Hero",
+            link: "https://anilist.co/activity/514927054",
+            image: "image.add",
+            content: [25, 15, 0, 55, 5, 1]
+        },
+         {
+            // Day 88
+            title: "Favorite School Uniform",
+            link: "https://anilist.co/activity/514927582",
+            image: "image.add",
+            content: [25, 15, 0, 55, 5, 1]
+        },
+         {
+            // Day 89
+            title: "Favorite Anime OP Song",
+            link: "https://anilist.co/activity/514928500",
+            image: "image.add",
+            content: [25, 15, 0, 55, 5, 1]
+        },
+         {
+            // Day 90
+            title: "Anime Character in a Swimsuit",
+            link: "https://anilist.co/activity/514931171",
+            image: "image.add",
+            content: [25, 15, 0, 55, 5, 1]
+        },
     ]
 }
 
