@@ -91,6 +91,10 @@ h1{
     color: #f5f5f5;
     font-size: 40px;
 }
+.img_logo{
+    max-width: 20%;
+    height: auto;
+}
 .challenge-image img
 {
     width: 400px;

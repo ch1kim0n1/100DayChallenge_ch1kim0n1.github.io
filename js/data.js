@@ -25,25 +25,25 @@ function getDatach1kim0n1() {
                 nickname: "SteveDekart",
                 image: "images/users/ST.jpg",
                 url: "https://stepan323446.github.io/anime-achievment-100days/",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "GreenDavid004",
                 image: "images/users/david.jpg",
                 url: "https://davidk004.github.io/100-day-challenge/",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "IamVoid",
                 image: "images/users/IamVoid.png",
                 url: "https://anilist.co/user/IamVoid/",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "F41NZ",
                 image: "images/users/F41NZ.jpg",
                 url: "https://anilist.co/user/F41NZ/",
-                status: Status.Current
+                status: Status.Complete
             },
              {
                 nickname: "BommieBomBom",
@@ -61,19 +61,19 @@ function getDatach1kim0n1() {
                 nickname: "bokut0",
                 image: "images/users/bokut0.png",
                 url: "https://anilist.co/user/bokut0",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "keiikeii",
                 image: "images/users/keiikeii.png",
                 url: "https://anilist.co/user/keiikeii/",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "stephonee",
                 image: "images/users/stephonee.png",
                 url: "https://anilist.co/user/stephonee",
-                status: Status.Current
+                status: Status.Complete
             },
             {
                 nickname: "RossyNarukami",
@@ -169,8 +169,9 @@ function getDatach1kim0n1() {
             new Title(52, "In Another World With a Smartphone"),
             new Title(53, "Log Horizon"),
             new Title(54, "Cells At Work"),
-            new Title(55, "My Love Story")
-
+            new Title(55, "My Love Story"),
+            new Title(56, "Is It Wrong to Try to Pick Up Girls in a Dungeon?"),
+            new Title(57, "Made in Abyss")
         ],
 
 
@@ -739,72 +740,142 @@ function getDatach1kim0n1() {
             // Day 81 ------------------------------- FROM HERE ADD PICTURES AND EDIT CATEGORIES ---------------------------------------------
             title: "Favorite Episode",
             link: "https://anilist.co/activity/510897060",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/81.png",
+            content: [20]
         },
     {
             // Day 82
             title: "Most Annoying Anime Character",
             link: "https://anilist.co/activity/510897778",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/61.png",
+            content: [49, 56]
         },
     {
             // Day 83
             title: "Ecchi moment from favorite anime",
             link: "https://anilist.co/activity/511372438",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/81.png",
+            content: [20]
         },
     {
             // Day 84
             title: "Most Recent Anime Wallpaper",
             link: "https://anilist.co/activity/514514384",
-            image: "images/8.2.png",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/10.23.jpg",
+            content: [0]
         },
     {
             // Day 85
             title: "Favorite Shoujo Anime",
             link: "https://anilist.co/activity/514515002",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/85.png",
+            content: [55]
         },
          {
             // Day 86
             title: "Favorite Yandere Character",
             link: "https://anilist.co/activity/514515781",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/86.png",
+            content: [35]
         },
          {
             // Day 87
             title: "Favorite Anime Hero",
             link: "https://anilist.co/activity/514927054",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/10.23.jpg",
+            content: [0]
         },
          {
             // Day 88
             title: "Favorite School Uniform",
             link: "https://anilist.co/activity/514927582",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/41.png",
+            content: [36]
         },
          {
             // Day 89
             title: "Favorite Anime OP Song",
             link: "https://anilist.co/activity/514928500",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/31.jpg",
+            content: [17, 12, 8, 57]
         },
-         {
+        {
             // Day 90
             title: "Anime Character in a Swimsuit",
             link: "https://anilist.co/activity/514931171",
-            image: "image.add",
-            content: [25, 15, 0, 55, 5, 1]
+            image: "images/81.png",
+            content: [20]
         },
+        {
+            // Day 91
+            title: "Favorite Anime Attack",
+            link: "https://anilist.co/activity/516114410",
+            image: "images/18.png",
+            content: [7]
+        },
+        {
+            // Day 92
+            title: "Favorite Anime of High School Characters",
+            link: "https://anilist.co/activity/516114597",
+            image: "images/85.png",
+            content: [55]
+        },
+        {
+            // Day 93
+            title: "Hottest Anime Guy",
+            link: "https://anilist.co/activity/516115825",
+            image: "images/7.gif",
+            content: [29]
+        },
+        {
+            // Day 94
+            title: "Favorite Nendroid",
+            link: "https://anilist.co/activity/516116964",
+            image: "images/94.png",
+            content: [50, 1]
+        },
+        {
+            // Day 95
+            title: "Favorite Manga",
+            link: "https://anilist.co/activity/516117271",
+            image: "images/95.jpg",
+            content: [20, 23, 25]
+        },
+        {
+            // Day 96
+            title: "Anime Character In My Room",
+            link: "https://anilist.co/activity/516811436",
+            image: "images/12.14.jpg",
+            content: [1]
+        },
+        {
+            // Day 97
+            title: "Anime Character That I Want to See in my Nightmare",
+            link: "https://anilist.co/activity/518017539",
+            image: "images/61.png",
+            content: [49]
+        },
+        {
+            // Day 98
+            title: "Best Male Character In Kimono",
+            link: "https://anilist.co/activity/518018100",
+            image: "images/94.png",
+            content: [50]
+        },
+        {
+            // Day 99
+            title: "Best Female Character In Kimono",
+            link: "https://anilist.co/activity/518018469",
+            image: "images/4.jpg",
+            content: [22]
+        },
+        {
+            // Day 100
+            title: "Confess to Anime Character",
+            link: "https://anilist.co/activity/518314884",
+            image: "images/10.23.jpg",
+            content: [0]
+        }
     ]
 }
 
